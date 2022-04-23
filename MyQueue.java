@@ -57,7 +57,7 @@ public class MyQueue <T>{
 
     }
 
-    public T popQ() { //удаляет топовый элемент
+    public T popQ() {
 
         for (int i = 0; i < length / 2; i++) {
             Object temp = arr[i];
